@@ -2,7 +2,7 @@
   <div>
     <el-row>
       <el-col :span="3">
-        <img src="../assets/img/logo.png" style="margin-top:15px" width="65" height="40">
+        <img src="../assets/img/logo.png" style="margin-top:10px" width="80" height="40">
       </el-col>
       <el-col :span="10">
         <NavBar/>

@@ -224,7 +224,7 @@ body {
   position: absolute;
   height: 80%;
   width: 20%;
-  left: 0;
+  left: 3%;
   bottom: 0;
   /* 渐变背景 ,自左到右 */
   background: linear-gradient(to right, #a2efd8, #92e0ee);
@@ -244,7 +244,7 @@ body {
 }
 
 .wrapper nav #CourseCenter:checked ~ .tab {
-  left: 20%;
+  left: 28%;
 }
 
 .wrapper nav #LiveCourse:checked ~ .tab {
@@ -252,11 +252,11 @@ body {
 }
 
 .wrapper nav #SolveProblem:checked ~ .tab {
-  left: 60%;
+  left: 53%;
 }
 
 .wrapper nav #OwnPage:checked ~ .tab {
-  left: 80%;
+  left: 78%;
 }
 
 .el-icon-s-home {
