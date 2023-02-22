@@ -5,7 +5,7 @@
       <li style="font-weight:bold;font-size:larger"><h1>课程来源</h1></li>
       <li v-for="i in fromurl" :key="i.index">
         <a :href="i.url">
-          <img :src="i.img" height="40px">
+          <img :src="i.img">
         </a>
       </li>
     </ul>
@@ -141,7 +141,6 @@ export default {
         { url: 'https://www.bilibili.com/', img: require('../assets/img/ad1.png') },
         { url: 'https://le.ouchn.cn/home', img: require('../assets/img/ad2.png') },
         { url: 'https://study.163.com/', img: require('../assets/img/title1.png') },
-        { url: 'https://www.dedao.cn/', img: require('../assets/img/title4.png') },
         { url: 'http://www.ouchn.edu.cn/', img: require('../assets/img/ad3.png') },
         { url: 'https://rjt.softtone.cn/index', img: require('../assets/img/ad4.png') }
       ],
@@ -437,32 +436,16 @@ img{
 ul li{
   width: 27%;
 }
-/*ul li{*/
-/*  width: 120px*/
-/*}*/
 ul li:nth-child(6),ul li:nth-child(7){
   margin-top: 0.6%;
 }
-/*ul li:nth-child(7) {*/
-/*  width: 176px;*/
-/*}*/
-/*ul li:nth-child(6) {*/
-/*  margin-left: 15px;*/
-/*}*/
 ul li:nth-child(3),ul li:nth-child(4){
   margin-top: 1%;
 }
-/*ul li:nth-child(1) h1{*/
-/*  font-size: 20px;font-weight: bold;line-height: 63px;margin-left: 12px;*/
-/*}*/
 ul li:nth-child(5) img {
-  width: 46%;
-  height: 69%;
   margin-top: 4%;
 }
 ul li:nth-child(2) img {
-  width: 47%;
-  height: 18%;
   margin-top: 4%;
 }
 </style>
