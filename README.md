@@ -50,5 +50,4 @@ npm run lint
 * id:主键值(必配)
 * tableKey:主键名(必配)
 * content:数据部分，根据实际需求按照 字段名: '字段值' 进行插值(选配)
-* 
-vue.config.js中的proxy下配置后台服务器地址
+* vue.config.js中的proxy下配置后台服务器地址
